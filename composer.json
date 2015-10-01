@@ -1,0 +1,25 @@
+{
+    "name": "epwt/data-cacher",
+    "description": "A small object wrapper which allows to cache any object which has public methods",
+    "keywords": ["cache", "simple", "redis", "wrapper"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aurimas Niekis",
+            "email": "aurimas.niekis@gmail.com"
+        }
+    ],
+    "require": {
+        "epwt/traits": "~1.1"
+    },
+    "suggest": {
+        "ext-redis": "A native redis client extension for RedisDriver",
+        "predis/predis": "A php redis client for RedisDriver"
+    },
+    "autoload": {
+        "psr-4": {
+            "EPWT\\DataCacher\\": "src"
+        }
+    }
+}
